@@ -79,12 +79,12 @@ The developed model provides actionable intelligence for the "client's" marketin
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/JuanesAF/customer-reactivation-model.git
+    git clone https://github.com/JuanesAF/automated-risk-analysis-model.git
 
     ```
 2.  Navigate to the project directory:
      ```bash
-    cd customer-reactivation-model
+    cd automated-risk-analysis-model
     ```
 3.  Install the required libraries (opcional, si creas un `requirements.txt`):
     ```bash

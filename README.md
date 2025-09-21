@@ -52,7 +52,7 @@ The project followed a standard data science workflow:
     1.  The feature "hora" (hour) has the highest importance, followed by "día" (day), "porc_ops_no_desbloq" (percent of operations not unlocked), and other features related to money             flow (such as "monto_giro" (amount sent), "remesas" (remittances), etc.).
     2.  Features related to transactions, amounts, and times (like "monto_usd" (USD amount), "total_recibido" (total received), etc.) seem to be more significant compared to those                related to "entidades_origen_blog" (source entities) or "porc_veces_pue_docs" (percent of times docs could be sent), which appear to have much lower importance.
 
-![Feature Importance Plot](URL_A_TU_IMAGEN_DE_FEATURE_IMPORTANCE)
+![Gráfico de Importancia de Características](feature_importance.png)
 
 ---
 

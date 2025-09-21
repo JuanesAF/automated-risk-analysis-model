@@ -79,11 +79,12 @@ The developed model provides actionable intelligence for the "client's" marketin
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/](https://github.com/)[tu_usuario]/[nombre-del-repositorio].git
+    git clone https://github.com/JuanesAF/customer-reactivation-model.git
+
     ```
 2.  Navigate to the project directory:
      ```bash
-    cd [nombre-del-repositorio]
+    cd customer-reactivation-model
     ```
 3.  Install the required libraries (opcional, si creas un `requirements.txt`):
     ```bash

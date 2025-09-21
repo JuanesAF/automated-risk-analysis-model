@@ -47,12 +47,10 @@ The project followed a standard data science workflow:
 
 ### Results & Key Findings
 
-* The final **Gradient Boosting model achieved an AUC score of 0.82** on the test set, demonstrating a strong ability to distinguish between customers who are likely to be reactivated and those who are not.
+* The final **Gradient Boosting model achieved an AUC score of 0.98** on the test set, and *F1 Score* of 0.88 demonstrating a strong ability to distinguish between customers who are likely to be reactivated and those who are not.
 * The most influential features for the prediction were:
-    1.  `SALDO_DISPONIBLE_TC` (Available credit card balance)
-    2.  `SALDO_EN_MORA` (Past due balance)
-    3.  `USO_ULT_3M` (Usage in the last 3 months)
-    4.  `EDAD` (Age)
+    1.  The feature "hora" (hour) has the highest importance, followed by "día" (day), "porc_ops_no_desbloq" (percent of operations not unlocked), and other features related to money             flow (such as "monto_giro" (amount sent), "remesas" (remittances), etc.).
+    2.  Features related to transactions, amounts, and times (like "monto_usd" (USD amount), "total_recibido" (total received), etc.) seem to be more significant compared to those                related to "entidades_origen_blog" (source entities) or "porc_veces_pue_docs" (percent of times docs could be sent), which appear to have much lower importance.
 
 ![Feature Importance Plot](URL_A_TU_IMAGEN_DE_FEATURE_IMPORTANCE)
 
@@ -70,7 +68,7 @@ The developed model provides actionable intelligence for the "client's" marketin
 
 ### Technologies Used
 
-* **Python:** 3.x
+* **Python:** 3.9.0
 * **Data Analysis & Manipulation:** Pandas, NumPy
 * **Machine Learning:** Scikit-learn
 * **Data Visualization:** Matplotlib, Seaborn
